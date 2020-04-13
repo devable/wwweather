@@ -1,0 +1,32 @@
+.content {
+    max-width: 380px;
+    flex: 0 0 100%;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    margin: 2rem;
+}
+
+.weatherBody > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weatherBody > div > div {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+.weatherBody > div > div:nth-child(odd) {
+    text-align: right;
+    color: var(--color-gray);
+    padding-right: 2rem;
+    border-right: 1px solid var(--border-color);
+}
+
+.weatherBody > div > div:nth-child(even) {
+    padding-left: 2rem;
+}
+
+.searchBox {
+    display: block;
+}

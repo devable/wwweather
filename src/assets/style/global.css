@@ -1,0 +1,29 @@
+@import url(~antd/dist/antd.css);
+@import url(./animations.css);
+
+:root {
+    --color-white: #fff;
+    --color-gray: #888;
+    --bg-gray: #f0f2f5;
+
+    --border-size: .1rem;
+    --border-radius: .2rem;
+    --border-color: #f0f0f0;
+}
+
+html {
+    font-size: 10px;
+    padding: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    background: var(--bg-gray);
+}
+
+#root {
+    display: flex;
+    justify-content: safe center;
+    align-items: safe center;
+    min-height: 100vh;
+}

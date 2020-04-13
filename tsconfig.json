@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./public/",
+        "moduleResolution": "node",
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "sourceMap": true,
+        "allowJs": true,
+        "noImplicitReturns": false,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true
+    },
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}

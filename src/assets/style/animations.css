@@ -1,0 +1,20 @@
+.swing {
+    animation: swing 1s infinite linear;
+}
+@keyframes swing {
+    25% {
+        transform: rotate(13deg);
+    }
+    75% {
+        transform: rotate(-13deg);
+    }
+}
+
+.spin {
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    to {
+        transform: rotate(359deg);
+    }
+}

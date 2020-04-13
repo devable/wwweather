@@ -1,0 +1,9 @@
+# directories
+node_modules
+public
+.idea
+
+# files
+yarn-error.log
+*.d.ts
+.DS_Store
